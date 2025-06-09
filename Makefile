@@ -20,7 +20,7 @@ env:
 	python -m venv env
 
 # Install dependencies into the virtual environment
-install: env
+install:
 	$(PYTHON) -m pip install --upgrade pip
 	$(PYTHON) -m pip install pyinstaller
 	@if exist requirements.txt $(PYTHON) -m pip install -r requirements.txt
