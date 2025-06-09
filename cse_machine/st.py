@@ -1,5 +1,5 @@
-from ast import ASTNode
-from ast.nodes import Nodes
+from abstractst import ASTNode
+from abstractst.nodes import Nodes
 from lexer.tokens import Token
 from structs.tree import BinaryTreeNode
 

@@ -1,4 +1,4 @@
-from ast.nodes import Nodes
+from abstractst.nodes import Nodes
 from .__parser import Parser
 from lexer.tokens import *
 

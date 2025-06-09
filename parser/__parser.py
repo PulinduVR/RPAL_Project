@@ -1,6 +1,6 @@
 from lexer import Lexer
 from lexer.tokens import *
-from ast import ASTNode
+from abstractst import ASTNode
 # from logger import logger
 
 class Parser:

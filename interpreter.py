@@ -7,9 +7,9 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 if current_dir not in sys.path:
     sys.path.insert(0, current_dir)
 
-from ast import ASTNode
+from abstractst import ASTNode
 from cse_machine.st import STNode
-from ast.standardize import ASTStandardizer
+from abstractst.standardize import ASTStandardizer
 from cse_machine import CSEMachine, MachineException
 from parser import RPALParser
 from lexer.tokens import *
